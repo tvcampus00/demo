@@ -1,3 +1,7 @@
-body {
-  background: pink;
+:root {
+  --colorPrimary: #2584ff;
+  --colorSecondary: #00d9ff;
+  --colorAccent: #ff3400;
+  --colorHeading: #1b0760;
+  --colorBody: #918ca4;
 }
