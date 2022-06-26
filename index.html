@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body style="padding: 5rem">
     <!-- <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -59,7 +59,7 @@
         id=""
       />
     </div>
-    <div style="width: 50%; padding: 4rem">
+    <!-- <div style="width: 50%; padding: 4rem">
       <div class="plan plan--popular">
         <div class="card card--secondary">
           <header class="card__header">
@@ -94,7 +94,7 @@
           temporibus?
         </p>
       </div>
-    </div>
+    </div> -->
 
     <blockquote class="quote">
       <p class="quote__text">
@@ -116,5 +116,41 @@
         </div>
       </footer>
     </blockquote>
+
+    <div class="card testimonial">
+      <div class="grid grid--1x2">
+        <div class="testimonial__image">
+          <img src="image/testimonial.jpg" alt="peron photos" />
+          <span class="icon-container icon-container--accent">
+            <svg class="icon icon--white icon--small">
+              <use xlink:href="image/sprite.svg#quotes"></use>
+            </svg>
+          </span>
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            animi pariatur error necessitatibus quam, harum rerum ullam amet
+            esse nesciunt.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="image/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">John Smith</h3>
+                <p class="quote__organization">Hong Kong University</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+        <!-- <div style="height: 100px; background: gold"></div>
+        <div style="height: 100px; background: blue"></div>
+        <div style="height: 100px; background: red"></div> -->
+      </div>
+    </div>
   </body>
 </html>
